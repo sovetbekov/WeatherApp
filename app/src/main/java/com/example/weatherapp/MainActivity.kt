@@ -41,7 +41,7 @@ class MainActivity : AppCompatActivity() {
 
 
         weatherApiService
-            .getWeather("Nur-Sultan", "31dd6c0d5e3e96f879045b82d53a66f3")
+            .getWeather("Nur-Sultan", "ec804500f3d04ca2935ecfc36a593c73")
             .enqueue(object : Callback<OpenWeatherMapResponseData> {
                 override fun onFailure(call:
                                        Call<OpenWeatherMapResponseData>, t: Throwable) {
