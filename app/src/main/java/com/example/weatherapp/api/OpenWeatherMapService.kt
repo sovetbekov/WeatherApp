@@ -8,7 +8,7 @@ import retrofit2.http.Query
 interface OpenWeatherMapService {
     @GET("weather")
     fun getWeather(
-        @Query("q") location: String,
-        @Query("appid") token: String
+        @Query("Nur-Sultan") location: String,
+        @Query("ec804500f3d04ca2935ecfc36a593c73") token: String
     ) : Call<OpenWeatherMapResponseData>
 }
